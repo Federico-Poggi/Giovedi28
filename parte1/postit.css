@@ -50,60 +50,90 @@ html, body, .container{
 .postit:nth-child(1){
     background-color:#F9FAC8 ;
     transform: rotate(-5deg) ;
-    /* transform: rotateZ(50deg); */
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(2){
     background-color: #C4F1C5;
     transform: rotate(10deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(3){
     background-color:#C6C6EE ;
     transform: rotate(-10deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 0.7s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(4){
     background-color: #C4F1C5;
     transform: rotate(10deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 0.9s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(5){
     background-color:#F9FAC8 ;
     transform: rotate(-5deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(6){
     background-color:#C6C6EE ;
     transform: rotate(-10deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 1.2s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(7){
     background-color: #F9FAC8;
     transform: rotate(-5deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 1.4s;
+    animation-timing-function: linear;
 }
 .postit:nth-child(8){
     background-color:#C4F1C5 ;
     transform: rotate(10deg) ;
+    animation: wall;
+    animation-duration: 0.1s;
+    animation-delay: 1.6s;
+    animation-timing-function: linear;
 }
 
 .postit:hover{
     transform: scale(1.2);
     animation-duration: 0.5s;
+    animation: wall;
+    animation-duration: 0.5s;
+    animation-delay: 1.8s;
+    animation-timing-function: linear;
 }
 
 @keyframes wall {
     0%{
     
-        transform: rotate3d(1, 1, 1, 70deg) scale(2);
+        transform: rotate3d(1, 1, 1, 180deg) scale(3);
        }
     
        100%{
-        transform: rotate3d(0 ,0, 0,-70deg) scale(1);
+        transform: rotate3d(0 ,0, 0,-180deg) scale(1);
        }
     
 }
 
-.postit{
-    animation: wall;
-    animation-duration: 0.5s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-}
+
 
 
 
