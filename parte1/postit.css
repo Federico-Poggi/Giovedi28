@@ -13,12 +13,13 @@ html, body, .container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 90%;
-    width: 80%;
+    height: 80%;
+    width: 70%;
     align-items: center;
     border: 10px solid rgb(108, 68, 39);
     border-radius: 50px;
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: url(../lavagna.jpg);
 }
 
 .postit{
@@ -43,7 +44,7 @@ html, body, .container{
     
 }
 .task{
-    font-size: 2em;
+    font-size: 1.5em;
     width: 100%;
 }
 
